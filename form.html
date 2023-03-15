@@ -10,6 +10,61 @@
 </head>
 
 <body>
+  <form action="form-data.html">
+    <div class="form-input-container">
+      <label for="fullname">Your Name</label>
+      <input type="text" class="fullname" id="fullname" name="fullname" required>
+      <br>
+      <label for="email">Your email</label>
+      <input type="email" class="email" id="email" name="email" required>
+      <br>
+      <label for="aguest">Will you bring a guest? </label>
+      <select name="aguest" id="aguest">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+      <br>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+  <br><br>
+  <form action="form-data.html">
+
+  </form>
+  <div class="form-input-containe">
+    <label for="company">Company</label>
+    <input type="text" class="company" id="company" name="company" required>
+    <br>
+    <label for="name">Full Name </label>
+    <input type="text" class="name" id="name" name="name" required>
+    <br>
+    <label for="mail">Email Adreess</label>
+    <input type="text" class="mail" id="mail" name="mail" required>
+    <br>
+
+    <label for="title">Title</label>
+    <input type="text" class="title" id="title" name="title" required>
+    <br>
+    <label for="phone">phone</label>
+    <input type="tel" class="phone" id="phone" name="phone">
+    <br>
+    <label for="date">Select a date</label>
+    <input type="date" class="date" id="date" name="date">
+    <br>
+    <label for="job">Job Function</label>
+    <select name="job" id="job">
+      <option value="projectmanager">Project Manager</option>
+      <option value="backendev">Backend Developer</option>
+      <option value="fronenddav">Frontend Developer</option>
+      <option value="designer">UX/UI Designer</option>
+      <option value="devops">DevOps engineer</option>
+    </select>
+
+    <textarea name="expectations" id="expectations" cols="30" rows="10" maxlength="10">
+
+    </textarea>
+    <button type="Submit">Submit</button>
+  </div>
 
   <br><br><br>
   <a href="index.html">Back Home</a>
